@@ -9,7 +9,7 @@ export default function Home() {
           <div className="left-column-flex">
             <p>
               Hi! I'm Ariya, <br /> A Software
-              <br /> Engineer
+              <br /> <span className="Engineer-text">Engineer</span>
             </p>
             <div className="project-experience-buttons">
               <button>Experience</button>
@@ -19,6 +19,7 @@ export default function Home() {
         </div>
         <div className="right-column">
           <Image
+            className="my-image"
             src="/mywebsite.png"
             alt="Picture of the author"
             width={724}

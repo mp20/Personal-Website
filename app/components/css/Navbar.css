@@ -54,3 +54,52 @@
   border-radius: 10px;
   text-align: center;
 }
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-links {
+    z-index: 1;
+    position: absolute;
+    background-color: #4392f1;
+    right: 0;
+    top: 99px;
+    width: 0px;
+    height: calc(100vh - 99px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+  .nav-links.active {
+    width: 270px;
+  }
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+  .nav-links ul a {
+    color: rgb(221, 221, 221);
+  }
+  .container {
+    margin: 0 auto;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #181818;
+    align-items: center;
+  }
+  .contact-button {
+    background-color: white;
+  }
+}
