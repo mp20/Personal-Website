@@ -18,13 +18,15 @@ export default function Home() {
           </div>
         </div>
         <div className="right-column">
-          <Image
-            className="my-image"
-            src="/mywebsite.png"
-            alt="Picture of the author"
-            width={724}
-            height={724}
-          />
+          <div className="image-container">
+            <Image
+              className="my-image"
+              src="/mywebsite.png"
+              alt="Picture of the author"
+              width={724}
+              height={724}
+            />
+          </div>
         </div>
       </div>
     </main>
