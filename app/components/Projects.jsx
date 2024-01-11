@@ -18,20 +18,14 @@ export default function () {
       skills: ["JavaScript", "React", "java", "Spring Boot", "SQL"],
     },
     {
-      images: [
-        "/my-project/sc1.png",
-        "/my-project/sc2.png",
-        "/my-project/sc3.png",
-        "/my-project/sc4.png",
-        "/my-project/sc5.png",
-      ],
+      video: "https://www.youtube.com/watch?v=evTtKJKR1rQ",
       title: "Graffiti IOS App",
       Description:
         "Graffiti is a project developed during Hack GT of Spring 2023. It is a real time, collaborative, augmented reality application centered around mural paintings with friends. It transforms physical walls in real life into interactive, shared canvases in a virtual space, enhancing social connection through creative expression. It also enabling users to simultaneously draw and view others' artworks, fostering a dynamic community-driven art experience in various locations.",
       skills: ["Swift", "ARKit", "SceneKit", "FireBase"],
     },
     {
-      images: [],
+      images: ["/VIP-art/sc1.png", "/VIP-art/sc2.png", "/VIP-art/sc3.png"],
       title: "Getting To Know U - VIP",
       Description:
         "Conducted a comprehensive analysis of Georgia Tech's extensive course history database to identify critical connections among various academic factors such as GPA, credit hours, majors, semesters, and courses. Then Leveraged Tableau to create interactive dashboards, providing students with visualized trends and insights. This is a now a Georgia Tech web site using Tableau’s REST API, offering full functionality and a seamless browsing experience with filtering and search functions.",

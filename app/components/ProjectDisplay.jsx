@@ -7,7 +7,7 @@ const ProjectDisplay = ({ project }) => {
   return (
     <div className="grid">
       <div className="project-photo">
-        <EmblaCarousel images={project.images} />
+        <EmblaCarousel images={project.images} video={project.video} />
       </div>
       <div className="project-description-flex">
         <div className="project-title">

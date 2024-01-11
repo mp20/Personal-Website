@@ -4,7 +4,7 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import "../components/css/EmblaCarousel.css";
 
-export const EmblaCarousel = ({ images }) => {
+export const EmblaCarousel = ({ images, video }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
   const scrollPrev = useCallback(() => {
@@ -18,14 +18,25 @@ export const EmblaCarousel = ({ images }) => {
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {images.map((image, index) => (
-            <div className="embla__slide" key={index}>
-              <img src={image} alt={index} />
+          {video ? (
+            <div className="embla__slide">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/evTtKJKR1rQ?si=7NN2yZVJ2_tgj1d8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen="allowfullscreen"
+              ></iframe>
             </div>
-          ))}
-          <div className="embla__slide">
-            <img src="/my-project/sc1.png" alt="first" />
-          </div>
+          ) : (
+            images.map((image, index) => (
+              <div className="embla__slide" key={index}>
+                <img src={image} alt={index} />
+              </div>
+            ))
+          )}
         </div>
       </div>
       <button className="embla__next" onClick={scrollNext}>
