@@ -4,7 +4,7 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import "../components/css/EmblaCarousel.css";
 
-export const EmblaCarousel = () => {
+export const EmblaCarousel = ({ images }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
   const scrollPrev = useCallback(() => {
@@ -18,20 +18,13 @@ export const EmblaCarousel = () => {
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
+          {images.map((image, index) => (
+            <div className="embla__slide" key={index}>
+              <img src={image} alt={index} />
+            </div>
+          ))}
           <div className="embla__slide">
             <img src="/my-project/sc1.png" alt="first" />
-          </div>
-          <div className="embla__slide">
-            <img src="/my-project/sc2.png" alt="first" />
-          </div>
-          <div className="embla__slide">
-            <img src="/my-project/sc3.png" alt="first" />
-          </div>
-          <div className="embla__slide">
-            <img src="/my-project/sc4.png" alt="first" />
-          </div>
-          <div className="embla__slide">
-            <img src="/my-project/sc5.png" alt="first" />
           </div>
         </div>
       </div>
