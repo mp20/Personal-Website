@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Urbanist:wght@400;600;800&display=swap");
+.about-me-p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #dddddd;
+  line-height: 1.625rem;
+  text-align: left;
+  line-height: 1.65;
+}
+
+.about-container {
+  margin: 0rem 8rem 15rem 8rem;
+}
+
+.about-me-heading {
+  font-size: 2.375em;
+  font-weight: 700;
+  color: #4392f1;
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+}
+
+.ga-tech {
+}
+@media (max-width: 1000px) {
+  .about-background {
+    display: flex;
+    justify-content: center;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-me-heading {
+    font-size: 2em;
+  }
+  .about-me-p {
+    font-size: 1em;
+  }
+}

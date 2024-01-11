@@ -15,11 +15,11 @@ export default function Navbar() {
       <div className="container">
         <div className="logo">
           <Link href="/">
-            <h1 className="logo-title">Ariya</h1>
+            <h1 className="logo-title">AN</h1>
           </Link>
         </div>
         <div className="menu-icon" onClick={toggleNavbar}>
-          <img src="/google_hamburger.svg" alt="FUCK" />
+          <img src="/google_hamburger.svg" alt="menu" />
         </div>
         <div className={`nav-links  ${showNavbar && "active"}`}>
           <ul>
