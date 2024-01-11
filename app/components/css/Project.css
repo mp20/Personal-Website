@@ -1,12 +1,16 @@
 .grid-container {
-  /* ØØ */
-  margin: 0rem 0rem 0rem 8rem;
+  margin: 0rem 0rem 12rem 8rem;
 }
 .grid {
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-column-gap: 1.2rem;
-  /* background-color: yellow; */
+}
+
+.project-photo {
+  width: 100%;
+  height: 100%;
+  background-color: red;
 }
 
 .project-description-flex {
@@ -14,30 +18,35 @@
   flex-direction: column;
 }
 .projects-header {
-  font-size: 1.5em;
-  margin-bottom: 1rem;
+  font-size: 2.375em;
   font-weight: 700;
   color: #dddddd;
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+  border-bottom: 5px solid #4392f1; /* You can adjust the color and thickness */
+  display: inline-block;
 }
 .project-title {
-  color: #dddddd;
-  font-size: 1rem;
-  font-weight: 700;
-}
-.project-description {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.4375rem;
   font-weight: 500;
   color: #dddddd;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.project-description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #dddddd;
   line-height: 1.625rem;
-  /* background-color: red; */
+  text-align: left;
+  line-height: 1.65;
 }
 
 .skill-flex {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   padding: 0;
 }
 
@@ -46,10 +55,10 @@
 }
 
 .skill-bubble {
-  color: #d8ab07;
+  color: #dddddd;
   line-height: 1.25rem;
   font-weight: 500;
-  background-color: rgb(67, 146, 241, 0.3);
+  background-color: #4392f1;
   border-radius: 1000px;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;

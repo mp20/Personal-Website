@@ -1,15 +1,22 @@
 .embla {
   overflow: hidden;
   position: relative;
+  height: 100%;
 }
 
 .embla__container {
   display: flex;
+  background-color: green;
+  height: 100%;
 }
 
 .embla__slide {
-  background-color: aqua;
   flex: 0 0 100%;
+  height: 100%;
+}
+
+.embla__viewport {
+  height: 100%;
 }
 
 .embla__slide img {
@@ -25,7 +32,6 @@
   top: 50%;
   transform: translateY(-50%); /* This helps to center the button */
   border: none;
-  background-color: yellow;
 }
 
 .embla__prev {

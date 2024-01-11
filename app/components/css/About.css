@@ -9,15 +9,18 @@
 }
 
 .about-container {
-  margin: 0rem 8rem 15rem 8rem;
+  margin: 0rem 8rem 20rem 8rem;
 }
 
 .about-me-heading {
   font-size: 2.375em;
   font-weight: 700;
-  color: #4392f1;
+  /* color: #4392f1; */
+  color: #dddddd;
   letter-spacing: 0.25px;
   margin-bottom: 2rem;
+  border-bottom: 5px solid #4392f1; /* You can adjust the color and thickness */
+  display: inline-block;
 }
 
 .ga-tech {

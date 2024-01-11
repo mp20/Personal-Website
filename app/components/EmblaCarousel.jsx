@@ -16,7 +16,7 @@ export const EmblaCarousel = () => {
   }, [emblaApi]);
   return (
     <div className="embla">
-      <div className="emblal__viewport" ref={emblaRef}>
+      <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           <div className="embla__slide">
             <img src="/my-project/sc1.png" alt="first" />
