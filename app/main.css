@@ -101,7 +101,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 12rem 0rem 4rem 0rem;
+    margin: 12rem 0rem 16rem 0rem;
   }
   .main-grid > :nth-child(1) {
     order: 2;

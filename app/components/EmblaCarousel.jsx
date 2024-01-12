@@ -21,13 +21,13 @@ export const EmblaCarousel = ({ images, video }) => {
           {video ? (
             <div className="embla__slide">
               <iframe
+                className="project-videos"
                 width="100%"
                 height="100%"
                 src="https://www.youtube.com/embed/evTtKJKR1rQ?si=7NN2yZVJ2_tgj1d8"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen="allowfullscreen"
+                allowFullScreen
               ></iframe>
             </div>
           ) : (
