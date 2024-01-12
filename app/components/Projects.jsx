@@ -35,10 +35,12 @@ export default function () {
   return (
     <div>
       <div className="grid-container">
-        <h1 className="projects-header">PROJECTS</h1>
-        {projects.map((project, index) => (
-          <ProjectDisplay project={project} key={index} />
-        ))}
+        <div className="new-container">
+          <h1 className="projects-header">PROJECTS</h1>
+          {projects.map((project, index) => (
+            <ProjectDisplay project={project} key={index} />
+          ))}
+        </div>
       </div>
     </div>
   );

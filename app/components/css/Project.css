@@ -10,3 +10,18 @@
   border-bottom: 5px solid #4392f1; /* You can adjust the color and thickness */
   display: inline-block;
 }
+@media (max-width: 1000px) {
+  .grid-container {
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+  }
+  .new-container {
+    margin: 0rem 3rem 0rem 3rem;
+    max-width: 700px;
+    /* background-color: yellow; */
+  }
+  .projects-header {
+  }
+}

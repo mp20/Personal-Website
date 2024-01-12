@@ -8,7 +8,6 @@
 .project-photo {
   width: 302px;
   height: 164px;
-
   border: 1px solid #dddddd;
 }
 
@@ -55,8 +54,19 @@
   padding-bottom: 0.25rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  margin-top: 5px;
 }
 
 .project-skills {
   margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+    /* background-color: red; */
+  }
+  .project-title {
+    margin-top: 1.5rem;
+  }
 }

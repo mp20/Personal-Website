@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Urbanist:wght@400;600;800&display=swap");
 .about-me-p {
   font-size: 1.125rem;
   font-weight: 400;
@@ -15,11 +14,10 @@
 .about-me-heading {
   font-size: 2.375em;
   font-weight: 700;
-  /* color: #4392f1; */
   color: #dddddd;
   letter-spacing: 0.25px;
   margin-bottom: 2rem;
-  border-bottom: 5px solid #4392f1; /* You can adjust the color and thickness */
+  border-bottom: 5px solid #4392f1;
   display: inline-block;
 }
 
@@ -30,7 +28,7 @@
   }
   .about-container {
     margin: 0rem 3rem 20rem 3rem;
-    max-width: 600px;
+    max-width: 700px;
   }
 }
 
