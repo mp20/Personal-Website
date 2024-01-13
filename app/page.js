@@ -47,7 +47,7 @@ export default function Home() {
             <div className="image-container">
               <img src="./mywebsite.png" className="my-image" />
             </div>
-            <img className="bee" src="/beees.png" alt="" />
+            <img className="bee" src="./beees.png" alt="" />
           </div>
         </div>
       </div>
