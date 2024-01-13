@@ -1,5 +1,9 @@
-.grid-container {
-  margin: 0rem 0rem 12rem 8rem;
+/* .grid-container {
+  margin: 0rem 8rem 12rem 8rem;
+} */
+.new-container {
+  margin: 0rem 8rem 12rem 8rem;
+  /* background-color: red; */
 }
 .projects-header {
   font-size: 2.375em;

@@ -8,7 +8,7 @@
 .project-photo {
   width: 302px;
   height: 164px;
-  border: 1px solid #dddddd;
+  border: 1px solid #4392f1;
 }
 
 .project-description-flex {
@@ -58,7 +58,7 @@
 }
 
 .project-skills {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 1000px) {

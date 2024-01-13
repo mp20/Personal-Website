@@ -18,6 +18,9 @@ ol {
   grid-template-columns: 300px 1fr;
   grid-column-gap: 1.2rem;
 }
+.experience-grid:first-of-type {
+  margin-bottom: 3rem; /* Adjust as needed */
+}
 
 .experience-container {
   margin: 0rem 8rem 20rem 8rem;
@@ -40,15 +43,25 @@ ol {
   text-align: left;
   line-height: 1.65;
 }
+
+.experience-skills {
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 1000px) {
+  .experience-grid {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
   .experience-parent {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: center;
   }
 
   .experience-container {
-    background-color: blue;
+    /* background-color: blue; */
     max-width: 700px;
     margin: 0rem 3rem 0rem 3rem;
   }

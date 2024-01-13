@@ -8,7 +8,7 @@ export default function Experience() {
         <h1 className="experience-heading">Experience</h1>
         <li>
           <div className="experience-grid">
-            <div className="time-line">2023-Present</div>
+            <div className="time-line">2023 - Present</div>
             <div className="experience-flex">
               <div className="experience-title">Software Engineer - Spasli</div>
               <div className="experience-description">
@@ -50,6 +50,38 @@ export default function Experience() {
                   </li>
                   <li>
                     <div className="skill-bubble">AWS S3</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="experience-grid">
+            <div className="time-line">2020 - Present</div>
+            <div className="experience-flex">
+              <div className="experience-title">CS Tutor - Takavi Tutors</div>
+              <div className="experience-description">
+                <p>
+                  I have over 3 years experience in tutoring students one-on-one
+                  from High school through college. Subjects include Data
+                  Structures and advanced Algorithms, AP Computer Science
+                  A/Principles.
+                </p>
+              </div>
+              <div className="experience-skills">
+                <ul className="skill-flex">
+                  <li>
+                    <div className="skill-bubble">Algorithms</div>
+                  </li>
+                  <li>
+                    <div className="skill-bubble">Data Structures</div>
+                  </li>
+                  <li>
+                    <div className="skill-bubble">Math</div>
+                  </li>
+                  <li>
+                    <div className="skill-bubble">AP Computer Science</div>
                   </li>
                 </ul>
               </div>
