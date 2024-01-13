@@ -6,6 +6,11 @@
   min-height: 80vh;
 }
 
+.my-image {
+  width: 724px;
+  height: 724px;
+}
+
 .Engineer-text {
   color: #4392f1;
   font-weight: 700;
