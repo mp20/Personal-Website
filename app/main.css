@@ -1,8 +1,9 @@
 .main-grid {
   display: grid;
   grid-template-columns: 2fr 4fr;
-  margin: 12rem 0rem 16rem 8rem;
+  margin: 12rem 0rem 0rem 8rem;
   /* background-color: blue; */
+  min-height: 80vh;
 }
 
 .Engineer-text {
@@ -77,7 +78,8 @@
 
 @media (max-width: 1200px) {
   .main-grid {
-    margin: 12rem 0rem 19rem 8rem;
+    margin: 12rem 0rem 0rem 8rem;
+    min-height: 90vh;
   }
   .image-container {
     width: 350px;
@@ -100,8 +102,8 @@
     /* background-color: blue; */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 12rem 0rem 16rem 0rem;
+    grid-template-rows: min-content 1fr;
+    margin: 12rem 0rem 0rem 0rem;
   }
   .main-grid > :nth-child(1) {
     order: 2;
@@ -114,6 +116,9 @@
   .right-column {
     display: flex;
     justify-content: center;
+  }
+  .image-wrapper {
+    height: fit-content;
   }
 }
 @media (max-width: 650px) {

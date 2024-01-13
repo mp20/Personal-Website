@@ -1,0 +1,10 @@
+.contact-parent {
+  margin-top: 12rem;
+  color: #dddddd;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
