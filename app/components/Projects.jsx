@@ -6,11 +6,11 @@ const Projects = React.forwardRef((props, ref) => {
   const project = [
     {
       images: [
-        "/my-project/sc1.png",
-        "/my-project/sc2.png",
-        "/my-project/sc3.png",
-        "/my-project/sc4.png",
-        "/my-project/sc5.png",
+        "./my-project/sc1.png",
+        "./my-project/sc2.png",
+        "./my-project/sc3.png",
+        "./my-project/sc4.png",
+        "./my-project/sc5.png",
       ],
       title: "Campus Discovery Web App",
       Description:
@@ -25,7 +25,7 @@ const Projects = React.forwardRef((props, ref) => {
       skills: ["Swift", "ARKit", "SceneKit", "FireBase"],
     },
     {
-      images: ["/VIP-art/sc1.png", "/VIP-art/sc2.png", "/VIP-art/sc3.png"],
+      images: ["./VIP-art/sc1.png", "./VIP-art/sc2.png", "./VIP-art/sc3.png"],
       title: "Getting To Know U - VIP",
       Description:
         "Conducted a comprehensive analysis of Georgia Tech's extensive course history database to identify critical connections among various academic factors such as GPA, credit hours, majors, semesters, and courses. Then Leveraged Tableau to create interactive dashboards, providing students with visualized trends and insights. This is a now a Georgia Tech web site using Tableau’s REST API, offering full functionality and a seamless browsing experience with filtering and search functions.",

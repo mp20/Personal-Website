@@ -45,7 +45,7 @@ export default function Home() {
         <div className="right-column">
           <div className="image-wrapper">
             <div className="image-container">
-              <img className="my-image" src="/mywebsite.png" />
+              <img src="./mywebsite.png" className="my-image" />
             </div>
             <img className="bee" src="/beees.png" alt="" />
           </div>
