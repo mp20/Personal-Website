@@ -20,7 +20,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="menu-icon" onClick={toggleNavbar}>
-          <Hamburger />
+          <Hamburger className="ham-menu" color="#dddddd" />
         </div>
         <div className={`nav-links  ${showNavbar && "active"}`}>
           <ul>

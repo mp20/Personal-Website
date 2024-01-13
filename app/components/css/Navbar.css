@@ -75,12 +75,9 @@
     display: block;
     cursor: pointer;
   }
-  .menu-icon img {
-    width: 40px;
-    height: 40px;
-    fill: white;
+  .ham-menu {
+    width: 48px;
   }
-
   .nav-links {
     z-index: 1;
     position: absolute;
@@ -112,5 +109,11 @@
   }
   .contact-button {
     background-color: white;
+  }
+}
+
+@media (max-width: 400px) {
+  .ham-menu {
+    width: 35px;
   }
 }
