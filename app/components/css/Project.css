@@ -2,8 +2,12 @@
   margin: 0rem 8rem 12rem 8rem;
 } */
 .new-container {
-  margin: 0rem 8rem 12rem 8rem;
+  margin: 0rem 8rem 0rem 8rem;
   /* background-color: red; */
+}
+
+.grid-container {
+  /* background-color: yellow; */
 }
 .projects-header {
   font-size: 2.375em;

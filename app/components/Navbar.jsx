@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState, React } from "react";
 import "../components/css/Navbar.css";
+import Hamburger from "../components/hamburger";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -19,7 +20,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="menu-icon" onClick={toggleNavbar}>
-          <img src="/google_hamburger.svg" alt="menu" />
+          <Hamburger />
         </div>
         <div className={`nav-links  ${showNavbar && "active"}`}>
           <ul>

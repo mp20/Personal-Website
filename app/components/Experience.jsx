@@ -1,13 +1,13 @@
 import React from "react";
 import "../components/css/Experience.css";
 
-export default function Experience() {
+const Experience = React.forwardRef((props, ref) => {
   return (
-    <div className="experience-parent">
+    <div className="experience-parent" ref={ref}>
       <ol className="experience-container">
         <h1 className="experience-heading">Experience</h1>
         <li>
-          <div className="experience-grid">
+          <div className="experience-grid first-grid">
             <div className="time-line">2023 - Present</div>
             <div className="experience-flex">
               <div className="experience-title">Software Engineer - Spasli</div>
@@ -91,4 +91,6 @@ export default function Experience() {
       </ol>
     </div>
   );
-}
+});
+
+export default Experience;

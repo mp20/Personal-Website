@@ -1,13 +1,32 @@
 "use client";
-// import React, { useRef } from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import "./main.css";
 import About from "./components/About";
-import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 
 export default function Home() {
+  const experienceRef = useRef(null);
+  const projectRef = useRef(null);
+
+  const scrollToExperience = () => {
+    const yOffset = -110;
+    const y =
+      experienceRef.current.getBoundingClientRect().top +
+      window.pageYOffset +
+      yOffset;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+  const scrollToProject = () => {
+    const yOffset = -110;
+    const y =
+      projectRef.current.getBoundingClientRect().top +
+      window.pageYOffset +
+      yOffset;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+
   return (
     <main>
       <div className="main-grid">
@@ -18,8 +37,8 @@ export default function Home() {
               <br /> <span className="Engineer-text">Engineer</span>
             </p>
             <div className="project-experience-buttons">
-              <button>Experience</button>
-              <button>Projects</button>
+              <button onClick={scrollToExperience}>Experience</button>
+              <button onClick={scrollToProject}>Projects</button>
             </div>
           </div>
         </div>
@@ -40,9 +59,8 @@ export default function Home() {
         </div>
       </div>
       <About />
-      {/* <Skills /> */}
-      <Experience />
-      <Projects />
+      <Experience ref={experienceRef} />
+      <Projects ref={projectRef} />
     </main>
   );
 }

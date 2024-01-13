@@ -2,8 +2,8 @@ import React from "react";
 import { EmblaCarousel } from "../components/EmblaCarousel";
 import "../components/css/Project.css";
 import ProjectDisplay from "./ProjectDisplay";
-export default function () {
-  const projects = [
+const Projects = React.forwardRef((props, ref) => {
+  const project = [
     {
       images: [
         "/my-project/sc1.png",
@@ -34,14 +34,16 @@ export default function () {
   ];
   return (
     <div>
-      <div className="grid-container">
+      <div className="grid-container" ref={ref}>
         <div className="new-container">
           <h1 className="projects-header">PROJECTS</h1>
-          {projects.map((project, index) => (
+          {project.map((project, index) => (
             <ProjectDisplay project={project} key={index} />
           ))}
         </div>
       </div>
     </div>
   );
-}
+});
+
+export default Projects;

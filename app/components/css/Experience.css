@@ -4,6 +4,12 @@ ol {
   padding: 0;
 }
 
+.experience-parent {
+  /* background-color: blue; */
+  margin-bottom: 7rem;
+  /* min-height: 50vh; */
+}
+
 .experience-heading {
   font-size: 2.375em;
   font-weight: 700;
@@ -18,17 +24,17 @@ ol {
   grid-template-columns: 300px 1fr;
   grid-column-gap: 1.2rem;
 }
-.experience-grid:first-of-type {
+.first-grid {
   margin-bottom: 3rem; /* Adjust as needed */
 }
 
 .experience-container {
-  margin: 0rem 8rem 20rem 8rem;
+  margin: 0rem 8rem 0rem 8rem;
 }
 
 .experience-title,
 .time-line {
-  font-size: 1.4375rem;
+  font-size: 1.25rem;
   font-weight: 500;
   color: #dddddd;
   text-align: left;
@@ -64,5 +70,8 @@ ol {
     /* background-color: blue; */
     max-width: 700px;
     margin: 0rem 3rem 0rem 3rem;
+  }
+  .experience-description {
+    font-size: 1rem;
   }
 }
