@@ -64,9 +64,20 @@
 @media (max-width: 1000px) {
   .grid {
     grid-template-columns: 1fr;
-    /* background-color: red; */
   }
   .project-title {
+    font-size: 1.25rem;
     margin-top: 1.5rem;
+  }
+  .project-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-photo {
+    width: 271.8px;
+    height: 147.6px;
+    border: 1px solid #dddddd;
   }
 }

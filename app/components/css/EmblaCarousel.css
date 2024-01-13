@@ -28,7 +28,7 @@
 .embla__prev,
 .embla__next {
   position: absolute;
-  z-index: 10;
+
   top: 50%;
   transform: translateY(-50%); /* This helps to center the button */
   border: none;

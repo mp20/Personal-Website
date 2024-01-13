@@ -1,0 +1,55 @@
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-heading {
+  font-size: 2.375em;
+  font-weight: 700;
+  color: #dddddd;
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+  border-bottom: 5px solid #4392f1;
+  display: inline-block;
+}
+.experience-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-column-gap: 1.2rem;
+}
+
+.experience-container {
+  margin: 0rem 8rem 20rem 8rem;
+}
+
+.experience-title,
+.time-line {
+  font-size: 1.4375rem;
+  font-weight: 500;
+  color: #dddddd;
+  text-align: left;
+  margin-bottom: 1rem;
+  letter-spacing: 0.15px;
+}
+.experience-description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #dddddd;
+  line-height: 1.625rem;
+  text-align: left;
+  line-height: 1.65;
+}
+@media (max-width: 1000px) {
+  .experience-parent {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+  }
+
+  .experience-container {
+    background-color: blue;
+    max-width: 700px;
+    margin: 0rem 3rem 0rem 3rem;
+  }
+}

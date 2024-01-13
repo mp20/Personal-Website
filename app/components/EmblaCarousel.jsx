@@ -39,12 +39,16 @@ export const EmblaCarousel = ({ images, video }) => {
           )}
         </div>
       </div>
-      <button className="embla__next" onClick={scrollNext}>
-        <img src="/chevron-right.svg" alt="" />
-      </button>
-      <button className="embla__prev" onClick={scrollPrev}>
-        <img src="/chevron-left.svg" alt="" />
-      </button>
+      {!video && (
+        <>
+          <button className="embla__next" onClick={scrollNext}>
+            <img src="/chevron-right.svg" alt="" />
+          </button>
+          <button className="embla__prev" onClick={scrollPrev}>
+            <img src="/chevron-left.svg" alt="" />
+          </button>
+        </>
+      )}
     </div>
   );
 };
