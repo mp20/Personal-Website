@@ -93,4 +93,6 @@ const Experience = React.forwardRef((props, ref) => {
   );
 });
 
+Experience.displayName = "Experience"; // Set the displayName explicitly
+
 export default Experience;

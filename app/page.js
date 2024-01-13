@@ -33,7 +33,7 @@ export default function Home() {
         <div className="left-column">
           <div className="left-column-flex">
             <p>
-              Hi! I'm Ariya, <br /> A Software
+              Hi! I&apos;m Ariya, <br /> A Software
               <br /> <span className="Engineer-text">Engineer</span>
             </p>
             <div className="project-experience-buttons">

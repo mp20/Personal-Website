@@ -45,5 +45,5 @@ const Projects = React.forwardRef((props, ref) => {
     </div>
   );
 });
-
+Projects.displayName = "Projects"; // Set the displayName explicitly
 export default Projects;
