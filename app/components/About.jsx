@@ -1,3 +1,5 @@
+import React from "react";
+import "../components/css/About.css";
 export default function About() {
   return (
     <div className="about-background">
