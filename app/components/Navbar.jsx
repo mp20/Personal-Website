@@ -25,11 +25,15 @@ export default function Navbar() {
         <div className={`nav-links  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/" onClick={toggleNavbar}>
+                Home
+              </Link>
             </li>
             <li>
               {showNavbar ? (
-                <Link href="contacts">Contacts</Link>
+                <Link href="contacts" onClick={toggleNavbar}>
+                  Contacts
+                </Link>
               ) : (
                 <>
                   <button className="contact-button">
