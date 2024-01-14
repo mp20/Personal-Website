@@ -66,17 +66,16 @@
 .image-container img {
   transform: scale(0.56);
 }
-.right-column {
-  /* background-color: red; */
-}
 
 .image-wrapper {
   position: relative;
+  /* background-color: yellow; */
+  width: fit-content;
 }
 
 .bee {
   position: absolute;
-  width: 150px; /* Adjust the size as needed */
+  width: 150px;
   top: 50px;
   left: 400px;
 }
@@ -133,7 +132,7 @@
   }
   .image-container {
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 300px;
     height: 300px;
     justify-content: center;
@@ -150,10 +149,18 @@
 @media (max-width: 430px) {
   .bee {
     width: 60px;
-    top: 50px;
-    left: 290px;
+    top: 30px;
+    left: 200px;
   }
   .main-grid {
     margin: 12rem 0rem 6rem 0rem;
+  }
+  .my-image {
+    width: 424px;
+    height: 424px;
+  }
+  .image-container {
+    width: 200px;
+    height: 200px;
   }
 }

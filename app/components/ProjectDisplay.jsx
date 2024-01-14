@@ -11,7 +11,18 @@ const ProjectDisplay = ({ project }) => {
       </div>
       <div className="project-description-flex">
         <div className="project-title">
-          <p>{project.title}</p>
+          <p>
+            {project.title}
+
+            {project.github && (
+              <>
+                {" · "}
+                <a className="github-link" href={project.github}>
+                  Github
+                </a>
+              </>
+            )}
+          </p>
         </div>
         <div className="project-description">{project.Description}</div>
         <div className="project-skills">
