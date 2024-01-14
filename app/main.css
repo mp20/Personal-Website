@@ -42,6 +42,7 @@
   height: 50px;
   letter-spacing: 1.25px;
   font-weight: 500;
+  color: #181818;
 }
 
 .project-experience-buttons button:hover {
@@ -69,7 +70,6 @@
 
 .image-wrapper {
   position: relative;
-  /* background-color: yellow; */
   width: fit-content;
 }
 

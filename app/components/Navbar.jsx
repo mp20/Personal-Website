@@ -28,9 +28,15 @@ export default function Navbar() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <button className="contact-button">
+              {showNavbar ? (
                 <Link href="contacts">Contacts</Link>
-              </button>
+              ) : (
+                <>
+                  <button className="contact-button">
+                    <Link href="contacts">Contacts</Link>
+                  </button>
+                </>
+              )}
             </li>
           </ul>
         </div>
