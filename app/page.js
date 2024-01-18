@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 import React, { useRef } from "react";
 import Image from "next/image";
 import "./main.css";
@@ -29,6 +30,10 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+        <title>Ariya Nazari | Software Engineer</title>
+      </Head>
+
       <div className="main-grid">
         <div className="left-column">
           <div className="left-column-flex">
