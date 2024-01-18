@@ -8,3 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.Resume {
+  text-decoration: none;
+  color: #4392f1;
+  font-size: 3rem;
+}
+
+.new_tab_icon {
+  margin-left: 0.5rem;
+}

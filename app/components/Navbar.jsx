@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState, React } from "react";
+import { useState, useEffect, React } from "react";
 import "../components/css/Navbar.css";
 import Hamburger from "../components/hamburger";
 
@@ -25,9 +25,13 @@ export default function Navbar() {
         <div className={`nav-links  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <Link href="/" onClick={toggleNavbar}>
-                Home
-              </Link>
+              {showNavbar ? (
+                <Link href="/" onClick={toggleNavbar}>
+                  Home
+                </Link>
+              ) : (
+                <Link href="/">Home</Link>
+              )}
             </li>
             <li>
               {showNavbar ? (
