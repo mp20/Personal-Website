@@ -1,6 +1,10 @@
 import React from "react";
 import "../components/css/Contact.css";
 import NewTabSVG from "../components/NewTabSVG";
+export const metadata = {
+  title: "Contact",
+  description: "Contact page with my resume",
+};
 export default function Contacts() {
   return (
     <div className="contact-parent">
