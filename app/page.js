@@ -30,10 +30,6 @@ export default function Home() {
 
   return (
     <main>
-      <Head>
-        <title>Ariya Nazari | Software Engineer</title>
-      </Head>
-
       <div className="main-grid">
         <div className="left-column">
           <div className="left-column-flex">
@@ -57,8 +53,12 @@ export default function Home() {
         </div>
       </div>
       <About />
-      <Experience ref={experienceRef} />
-      <Projects ref={projectRef} />
+      <section>
+        <Experience ref={experienceRef} />
+      </section>
+      <section>
+        <Projects ref={projectRef} />
+      </section>
     </main>
   );
 }

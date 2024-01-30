@@ -60,28 +60,34 @@ const Experience = React.forwardRef((props, ref) => {
           <div className="experience-grid">
             <div className="time-line">2020 - Present</div>
             <div className="experience-flex">
-              <div className="experience-title">CS Tutor - Takavi Tutors</div>
+              <div className="experience-title">
+                Software Engineer Intern - Takavi Tutors
+              </div>
               <div className="experience-description">
                 <p>
-                  I have over 3 years experience in tutoring students one-on-one
-                  from High school through college. Subjects include Data
-                  Structures and advanced Algorithms, AP Computer Science
-                  A/Principles.
+                  Integrated advanced geolocation APIs, optimizing search
+                  functionality for finding nearby tutors. Enhanced automated
+                  Zoom session integration feature for seamless student-teacher
+                  sessions. Development of comprehensive dashboard analytics,
+                  including tutor’s yearly and quarterly income break downs.
                 </p>
               </div>
               <div className="experience-skills">
                 <ul className="skill-flex">
                   <li>
-                    <div className="skill-bubble">Algorithms</div>
+                    <div className="skill-bubble">JavaScript</div>
                   </li>
                   <li>
-                    <div className="skill-bubble">Data Structures</div>
+                    <div className="skill-bubble">React</div>
                   </li>
                   <li>
-                    <div className="skill-bubble">Math</div>
+                    <div className="skill-bubble">AWS</div>
                   </li>
                   <li>
-                    <div className="skill-bubble">AP Computer Science</div>
+                    <div className="skill-bubble">PHP</div>
+                  </li>
+                  <li>
+                    <div className="skill-bubble">Redux</div>
                   </li>
                 </ul>
               </div>
