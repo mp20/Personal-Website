@@ -11,7 +11,7 @@ export default function Contacts() {
       <div className="contact-container">
         <a
           className="Resume"
-          href="./Resume/Ariya_Nazari_Resume_copy_3.pdf"
+          href="./Resume/Ariya_Nazari_resume_copy_3.pdf"
           target="_blank"
         >
           Resume
