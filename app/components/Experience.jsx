@@ -13,16 +13,17 @@ const Experience = React.forwardRef((props, ref) => {
               <div className="experience-title">Software Engineer - Spasli</div>
               <div className="experience-description">
                 <p>
-                  Founded and Lead the development of a peer-to-peer rental
-                  marketplace, a cost-effective solution that empowers users to
-                  list items for additional income and enables on-demand rentals
-                  for diverse needs. I Designed the database schemas and
-                  translated them into functional MySQL database. I completed
-                  the entire front-end user interface along with the backend
-                  API. This included the development of the authentication
-                  processes through stateless JWT tokens with RSA encryption.
-                  Implemented Amazon S3 storage solution for reliable and secure
-                  management of user uploaded images.
+                  Designed and implemented MySQL database schemas, translating
+                  complex requirements into scalable models. Collaborated on the
+                  development of the front-end interface using React and Redux
+                  for state management, paired with a secure backend developed
+                  in Java and Spring. Developed secure authentication workflows
+                  using stateless JWT tokens with RSA encryption, enhancing
+                  system security. Strengthened system security and user role
+                  management by enhancing authorization with Spring Security,
+                  adding multiple user roles, and fine-tuning acess controls for
+                  restricted API endpoints. Integrated Amazon S3 for reliable
+                  and secure storage of user uploaded images for item listings
                 </p>
               </div>
               <div className="experience-skills">
