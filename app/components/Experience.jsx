@@ -14,6 +14,7 @@ const Experience = React.forwardRef((props, ref) => {
               <div className="experience-description">
                 <p>
                   Designed and implemented MySQL database schemas, translating
+                  
                   complex requirements into scalable models. Collaborated on the
                   development of the front-end interface using React and Redux
                   for state management, paired with a secure backend developed
